@@ -4,6 +4,7 @@ pub fn build(b: *std.build.Builder) void {
     var sysLibs = [_][]const u8{
         "c",
         "vulkan",
+        "xcb",
     };
 
     const target = b.standardTargetOptions(.{});
